@@ -15,10 +15,10 @@ Through this project, I aim to determine whether caffeine (sadly) has a real pos
 To track caffeine intake, I will use the HiCoffee - Caffeine Tracker app on iOS. This app allows users to log coffee and energy drink consumption while recording the exact time of intake. It includes a database of various beverages from brands like Starbucks, Nespresso, and Monster, along with an option to manually input drinks with their corresponding caffeine amounts, which are typically available on official brand websites.
 
 To measure my study productivity, I will use a simple stopwatch (available on Google) to record the duration of my study sessions before and after consuming caffeine. Additionally, I will record:
-- The time of caffeine intake
-- The type and amount of caffeine consumed
-- How long I studied before and after consumption
-- My subjective focus level (on a scale from 1 to 10)
+- the time of caffeine intake
+- the type and amount of caffeine consumed
+- how long I studied before and after consumption
+- my subjective focus level (on a scale from 1 to 10)
 
 This data will help me determine if caffeine affects study efficiency and whether the timing of intake plays a role.
 
