@@ -9,7 +9,7 @@ The most common and seemingly effective solution? Caffeine consumption.
 
 However, I dislike drinking coffee out of obligation. This led me to question: Does caffeine truly enhance productivity, or is it merely a psychological boost that makes me believe I can study longer by the aid of an external energy source?
 
-Through this project, I aim to determine whether caffeine (sadly) has a real positive impact on my study efficiency or if the perceived benefits are simply a placebo effect.
+Through this project, I aim to determine whether caffeine has a real positive impact on my study efficiency or if the perceived benefits are simply a placebo effect.
 
 ## Data Source: Where did I get this data? How did I collect it? ⏱
 To track caffeine intake, I will use the HiCoffee - Caffeine Tracker app on iOS. This app allows users to log coffee and energy drink consumption while recording the exact time of intake. It includes a database of various beverages from brands like Starbucks, Nespresso, and Monster, along with an option to manually input drinks with their corresponding caffeine amounts, which are typically available on official brand websites.
@@ -18,7 +18,6 @@ To measure my study productivity, I will use a simple stopwatch (available on Go
 - the time of caffeine intake
 - the type and amount of caffeine consumed
 - how long I studied before and after consumption
-- my subjective focus level (on a scale from 1 to 10)
 
 This data will help me determine if caffeine affects study efficiency and whether the timing of intake plays a role.
 
