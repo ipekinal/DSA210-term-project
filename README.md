@@ -16,7 +16,7 @@ To track caffeine intake, I will use the HiCoffee - Caffeine Tracker app on iOS.
 
 To track my sleep duration and quality, I will use Apple's Health App together with Sleep Cycle app on iOS. Both of these apps have automatic and manual functions to measure sleep quality. I will log the time I go to sleep, the average time it takes for me to fall asleep, and the time I wake up. Sleep Cycle app also lets the user record sounds over the night to find out whether the user woke up during sleeping to measure the sleep quality.
 
-To measure my study productivity, I will use a simple stopwatch (available on Google) to record the duration of my study sessions before and after consuming caffeine. Additionally, I will record:
+To measure my study productivity, I will use a simple stopwatch (available on Google) to record the duration of my study sessions. Additionally, I will record:
 - the time of caffeine intake
 - the type and amount of caffeine consumed
 - how long I studied before and after consumption
@@ -35,17 +35,17 @@ To measure my study productivity, I will use a simple stopwatch (available on Go
     - distractions - my friends inviting me for a break outside IC may impede my productivity regardless of caffeine intake
 - Correlation Analysis
   - calculating the correlation coefficient - to determine if there is a positive/negative correlation or no relationship between the amount of caffeine consumed and the sleep duration vs. how productive I was while studying 
-  - visualyzing trends using scatter plots - to ease identifying the relationships mentioned above and whether it is strong/weak/nonexistent
+  - visualizing trends using scatter plots - to ease identifying the relationships mentioned above and whether it is strong/weak/nonexistent
 
 ## Hypotheses to Test 📊
 1) Caffeine affects study duration.
-- 1st Null Hypothesis (H₀): There is no significant difference in study duration before and after caffeine consumption.
-- 1st Alternative Hypothesis (H₁): Study duration increases after caffeine consumption.
+- 1st Null Hypothesis (H₀): There is no significant difference in study duration with and without caffeine consumption.
+- 1st Alternative Hypothesis (H₁): Study duration increases with caffeine consumption.
 
 2) Sleep duration influences study duration.
-- 2nd Null Hypothesis (H₀): Sleep quality and duration have no significant effect on study efficiency.
-- 2nd Alternative Hypothesis (H₁): Higher sleep quality and longer sleep duration contribute to increased study productivity.
+- 2nd Null Hypothesis (H₀): Sleep duration has no significant effect on study efficiency.
+- 2nd Alternative Hypothesis (H₁): Longer sleep duration contributes to increased study productivity.
 
 3) The interaction of caffeine intake and sleep affects study efficiency.
-- 3rd Null Hypothesis (H₀): There is no interaction effect between caffeine intake and sleep quality on study duration.
+- 3rd Null Hypothesis (H₀): There is no interaction effect between caffeine intake and sleep duration on study duration.
 - 3rd Alternative Hypothesis (H₁): A combination of optimal sleep and moderate caffeine intake results in the highest study efficiency.
