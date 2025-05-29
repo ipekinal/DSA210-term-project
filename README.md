@@ -1,4 +1,4 @@
-# ☕️💤 Caffeine Intake & Sleep Duration vs. Studying Time 📚⚡️
+# 🎥💸 Movie Budgets vs. Genres & IMDb Ratings 🎬🍿
 
 ## Project Overview & Motivation 
 The savior of students worldwide, enabling us to stay awake and study for long hours, is often caffeine, usually in the form of coffee or energy drinks.
