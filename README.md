@@ -1,27 +1,14 @@
 # 🎥💸 Movie Budgets vs. Genres & IMDb Ratings 🎬🍿
 
 ## Project Overview & Motivation 
-The savior of students worldwide, enabling us to stay awake and study for long hours, is often caffeine, usually in the form of coffee or energy drinks.
 
-Being a hardworking student while also being a chronic procrastinator is not for the faint of heart. Especially when deadlines and exams are right around the corner, I frequently find myself struggling to stay awake while simultaneously suffering from sleep deprivation.
 
-Hence, I find myself questioning whether I should drink a coffee and continue studying, or get a good night's sleep and continue tomorrow.
+## Data Source: Where did I get this data? How did I collect it? 🌐
+IMDb has a different website called “IMDb developer” and it has non-commercial datasets. From there, I downloaded 2 datasets. The first one was a huge dataset named “title basics” which consists of the unique alphanumeric identifier, title type, popular title, original title, release year, and genres of movies. The second one was called “title ratings” and had information about the unique alphanumeric identifier, weighted average of all the individual user ratings, and number of votes of movies.
 
-This led me to question: Does caffeine truly enhance productivity, or is it merely a psychological boost that makes me believe I can study longer by the aid of an external energy source? Moreover, does the quality and duration of sleep play a larger role than caffeine intake alone?
+From the first dataset, I filtered the movies in the last 25 years (since otherwise I failed to see the end of my code’s execution after several hours of trying to keep the runtime connected). Then, I matched the unique identifier of movies in “title basics” to the unique identifiers in “title ratings” since not all the movies in the first set was included in the second one. After merging them, I had to get the data about budget and revenue.
 
-At the end of this project, I hope to uncover whether caffeine compensates for sleep deprivation or if proper sleep habits contribute more effectively to increased productivity.
-
-## Data Source: Where did I get this data? How did I collect it? ⏱
-To track caffeine intake, I will use the HiCoffee - Caffeine Tracker app on iOS. This app allows users to log coffee and energy drink consumption while recording the exact time of intake. It includes a database of various beverages from brands like Starbucks, Nespresso, and Monster, along with an option to manually input drinks with their corresponding caffeine amounts, which are typically available on official brand websites.
-
-To track my sleep duration and quality, I will use Apple's Health App together with Sleep Cycle app on iOS. Both of these apps have automatic and manual functions to measure sleep quality. I will log the time I go to sleep, the average time it takes for me to fall asleep, and the time I wake up. Sleep Cycle app also lets the user record sounds over the night to find out whether the user woke up during sleeping to measure the sleep quality.
-
-To measure my study productivity, I will use a simple stopwatch (available on Google) to record the duration of my study sessions. Additionally, I will record:
-- the time of caffeine intake
-- the type and amount of caffeine consumed
-- how long I studied before and after consumption
-- the time I went to sleep compared to the proximity of consuming caffeine
-- sleep duration compared to the amount of caffeine consumed that day
+The Movie Database offers an extensive API service for free. I created an account and managed to get a personalized API key for access. With the help of ChatGPT, I pulled the information of budget and revenue from TMDB that once again corresponded to the titles that I merged earlier with movie names, genres and ratings. At last, I successfully got a file named “movies_after_2000” with 1000 entries that had the following attributes: title, release year, IMDb rating, genre, budget, revenue.
 
 ## Data Analysis: Techniques and Stages of Analysis 🔍
 - Data Collection - throughout March and April, maintaining:
