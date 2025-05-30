@@ -27,12 +27,12 @@ Each of these steps helped build a multidimensional understanding of the film da
 
 ## Hypotheses to Test 📊
 1) Budget and IMDb ratings
-   - Null: Budget and IMDb ratings do not have a significant correlation.
+   - Null: Budget affects IMDb rating.
    - Alternative: Budget is positively correlated with IMDb rating.
 Tested using Pearson’s correlation and scatter plots with trendlines.
 
  2) Revenue and IMDb ratings
-   - Null: Revenue and IMDb ratings do not have a significant correlation
+   - Null: Revenue affects IMDb rating.
    - Alternative: Revenue is positively correlated with IMDb rating.
 Tested with Pearson’s correlation.
 
