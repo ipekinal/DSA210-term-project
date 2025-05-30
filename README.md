@@ -36,3 +36,6 @@ The Movie Database offers an extensive API service for free. I created an accoun
 3) The interaction of caffeine intake and sleep affects study efficiency.
 - 3rd Null Hypothesis (H₀): There is no interaction effect between caffeine intake and sleep duration on study duration.
 - 3rd Alternative Hypothesis (H₁): A combination of optimal sleep and moderate caffeine intake results in the highest study efficiency.
+
+## Acknowledgement
+Assistance with specific technical components like Markdown formatting, and hypothesis layout was provided using ChatGPT by OpenAI (2024), based on user-generated data and user-generated context.
